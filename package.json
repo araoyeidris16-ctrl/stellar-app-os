@@ -17,6 +17,7 @@
     "test:watch": "vitest",
     "test:ui": "vitest --ui",
     "test:e2e": "playwright test",
+    "test:e2e:responsive": "playwright test --project=mobile --project=tablet --project=desktop",
     "format": "prettier -write .",
     "format:check": "prettier -check .",
     "generate-icons": "node scripts/generate-icons.mjs",
